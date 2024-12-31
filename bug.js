@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Linking` API to handle deep links.  The app receives a deep link, but `Linking.getInitialURL()` returns `null`, even when the app was launched directly from the link. This can happen inconsistently, making it difficult to debug.
